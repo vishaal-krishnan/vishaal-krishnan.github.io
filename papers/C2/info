@@ -1,0 +1,14 @@
+# jemdoc: {info.html}
+= Identification of critical node clusters for consensus in large-scale spatial networks
+  V. Krishnan and S. Martínez \n
+  /20th IFAC World Congress/, 2017
+
+- Manuscript \[[http://nodes.ucsd.edu/vishaal/papers/C2/C2.pdf pdf], [https://www.sciencedirect.com/science/article/pii/S2405896317327374 link], [http://nodes.ucsd.edu/vishaal/papers/C2/Talk.pdf Slides]\]  
+
+== Abstract
+
+In this work, we address the problem of identifying a set of nodes that are critical to the rate of convergence of consensus dynamics in large-scale spatial networks. By assuming that nodes are uniformly distributed over a spatial region and that these can communicate with others in an infinitesimally small neighborhood, we start by formulating the consensus problem by means of a partial differential equation involving the Laplace operator, subject to Neumann boundary condition. As with its finite-dimensional counterpart, we observe how the performance of these dynamics is directly related to the second smallest eigenvalue of the Laplace operator over the domain of interest. We then reduce the critical node set identification problem to that of finding a ball of fixed radius, whose removal minimizes the rate of convergence over the residual domain. This leads us to consider two functional optimization problems. First, we treat the problem of determining the second smallest eigenvalue for a fixed domain by minimizing an energy functional. We characterize the critical points of the energy functional, and then construct the gradient dynamics that converge to the set of critical points. We then prove that the only locally asymptotically stable critical point is the second eigenfunction of the Laplace operator. Building on these results, we consider the critical ball identification problem, provide a characterization of the critical points, and define gradient dynamics to converge asymptotically to these points.
+
+
+== Bibtex entry
+

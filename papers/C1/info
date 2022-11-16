@@ -1,0 +1,13 @@
+# jemdoc: {info.html}
+= Self-Organization in Multi-Agent Swarms via Distributed Computation of Diffeomorphisms
+  V. Krishnan and S. Martínez \n
+  /22nd International Symposium on Mathematical Theory of Networks and Systems/, 2016
+
+- Manuscript \[[http://nodes.ucsd.edu/vishaal/papers/C1/C1.pdf pdf], [https://conservancy.umn.edu/handle/11299/181518 link], [http://nodes.ucsd.edu/vishaal/papers/C1/Talk.pdf Slides]\]  
+
+== Abstract
+
+In this work, we address the problem of self- organization for multi-agent swarms in 1D and 2D spatial domains. The objective is to achieve a desired density distribution over a continuous spatial domain. Since individual agents in a swarm are not themselves of interest and we are concerned only with the macroscopic objective, we view the swarm as a discrete approximation of a continuous medium and design spatial control laws to shape the density distribution of the continuous medium. The key feature of this work is that the agents in the swarm do not have access to position information nor do they have the capability to measure the distances to their neighbors. Each individual agent is capable of measuring the current local density of agents and can communicate with its neighbors. The agents implement a distributed algorithm, which we call pseudo-localization, to localize themselves in a new coordinate frame, and a distributed control law to converge to the desired spatial density distribution. We start by studying self-organization in one-dimension, which is then followed by the two-dimensional case.
+
+== Bibtex entry
+

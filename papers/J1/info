@@ -1,0 +1,24 @@
+# jemdoc: {info.html}
+= Distributed control for spatial self-organization of multi-agent swarms
+  V. Krishnan and S. Martínez \n
+  /SIAM Journal on Control and Optimization/, 2018
+
+- Manuscript \[[https://epubs.siam.org/doi/abs/10.1137/16M1080926 link], [http://nodes.ucsd.edu/vishaal/papers/J1/J1.pdf pdf], [https://arxiv.org/abs/1705.03109 arXiv]\] 
+
+== Abstract
+
+In this work, we design distributed control laws for spatial self-organization of multi- agent swarms in 1D and 2D spatial domains. The objective is to achieve a desired density distribution over a simply-connected spatial domain. Since individual agents in a swarm are not themselves of interest and we are concerned only with the macroscopic objective, we view the network of agents in the swarm as a discrete approximation of a continuous medium and design control laws to shape the density distribution of the continuous medium. The key feature of this work is that the agents in the swarm do not have access to position information. Each individual agent is capable of measuring the current local density of agents and can communicate with its spatial neighbors. The network of agents implement a Laplacian-based distributed algorithm, which we call pseudo-localization, to localize themselves in a new coordinate frame, and a distributed control law to converge to the desired spatial density distribution. We start by studying self-organization in one-dimension, which is then followed by the two-dimensional case.
+
+== Bibtex entry
+
+@article{VK-SM:18, \n
+  title={Distributed control for spatial self-organization of multi-agent swarms}, \n
+  author={V. Krishnan and S. Mart{\'\i}nez}, \n
+  journal={SIAM Journal on Control and Optimization}, \n
+  volume={56}, \n
+  number={5}, \n
+  pages={3642--3667}, \n
+  year={2018}, \n
+  publisher={SIAM} \n
+}
+

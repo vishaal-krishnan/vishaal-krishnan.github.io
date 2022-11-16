@@ -1,0 +1,14 @@
+# jemdoc: {info.html}
+= Distributed optimal transport for the deployment of swarms
+  V. Krishnan and S. Martínez \n
+  /IEEE Conference on Decision and Control/, 2018
+
+- Manuscript \[[http://nodes.ucsd.edu/vishaal/papers/C3/C3.pdf pdf], [https://ieeexplore.ieee.org/document/8619816 link], [http://nodes.ucsd.edu/vishaal/papers/C3/Talk.pdf Slides]\]  
+
+== Abstract
+
+The analysis and design of scalable distributed algorithms for spatial deployment is an important problem in the area of multi-robot systems. For very large swarms, this can be prescribed via macroscopic objectives on the behavior of the swarm, and accomplished by local sensing and communication between agents. In this paper, we address the problem of distributed optimal transport, with the aim of minimizing the cost of deployment of large swarms. Working with a macroscopic PDE model of swarms given by the continuity equation, we first formulate a general deployment objective, and formulate deployment algorithms as convergent gradient flows. Then, we design and analyze a novel Laplacian-based distributed algorithm and a corresponding weighted gradient flow for optimal transport. We conclude the manuscript with simulations that illustrate our results.
+
+
+== Bibtex entry
+

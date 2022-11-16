@@ -1,0 +1,13 @@
+# jemdoc: {info.html}
+= Identification of critical nodes in large-scale spatial networks 
+  V. Krishnan and S. Martínez \n
+  /IEEE Transactions on Control of Network Systems/, 2018. Early Access
+
+- Manuscript \[[https://ieeexplore.ieee.org/document/8514047 link], [http://nodes.ucsd.edu/vishaal/papers/J2/J2.pdf pdf], [https://arxiv.org/abs/1710.00796 arXiv]\]  
+
+== Abstract
+
+The notion of network connectivity is used to characterize the robustness and failure tolerance of networks, with high connectivity being a desirable feature. In this paper, we develop a novel gradient flow-based approach to the problem of identifying critical nodes in large-scale networks, with algebraic connectivity (the second smallest eigenvalue of the graph Laplacian) as the chosen metric. Employing a graph-embedding technique, we reduce the class of considered weight-balanced graphs to spatial networks with uniformly distributed nodes and nearest-neighbors communication topologies. Through a continuum approximation, we consider the Laplace operator on a manifold (with the Neumann boundary condition) as the limiting case of the graph Laplacian. We then reduce the critical node set identification problem to that of finding a ball of fixed radius, whose removal minimizes the second (Neumann) eigenvalue of the Laplace operator on the residual domain. Finally, we provide a characterization of the location of critical nodes (for infinitesimally-small balls) as those points which belong to the nodal set of the second eigenfunction of the Laplacian operator.
+
+== Bibtex entry
+

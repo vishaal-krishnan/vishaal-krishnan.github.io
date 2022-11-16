@@ -1,0 +1,34 @@
+# jemdoc: {info.html}
+= On Observability and Stability of Moving-Horizon Estimation in a Distributional Framework
+  V. Krishnan and S. Martínez \n
+  /American Control Conference/, 2019
+
+- Manuscript \[[http://nodes.ucsd.edu/vishaal/papers/C4/C4.pdf pdf], [http://nodes.ucsd.edu/vishaal/papers/C4/Talk.pdf Slides]\]  
+
+== Abstract
+
+  In this work, we propose a unifying framework in the space of
+  probability measures for gradient-based and sampling-based
+  moving-horizon estimation methods.  We begin with an investigation
+  of the classical notion of strong local observability of nonlinear
+  systems and its relationship to optimization-based state estimation.
+  We then present a general moving-horizon estimation framework for
+  strongly locally observable systems, as an iterative minimization
+  scheme in the space of probability measures. This framework allows
+  for the minimization of the estimation cost with respect to
+  different metrics and divergences.  In particular, we consider two
+  variants, which we name $W_2$-MHE and KL-MHE, where the minimization
+  scheme uses the 2-Wasserstein distance and the KL-divergence
+  respectively.  The $W_2$-MHE yields a gradient-based estimator
+  whereas the KL-MHE yields a particle filter, for which
+  we investigate asymptotic stability and robustness properties.
+  Stability results for these moving-horizon estimators are derived in
+  the distributional setting, against the backdrop of the classical
+  notion of strong local observability which, to the best of our
+  knowledge, differentiates it from other previous works.  We also
+  present results from numerical simulations to demonstrate the
+  performance of these estimators.
+
+
+== Bibtex entry
+
